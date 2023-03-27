@@ -1,0 +1,11 @@
+.section{
+    width: 240px;
+}
+
+.section:nth-child(2){
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 22px;
+}

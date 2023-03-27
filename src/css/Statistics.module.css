@@ -1,0 +1,22 @@
+.statistics_container{
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.statistics_item{
+    display: flex;
+    line-height: 1;
+}
+
+.statistics_item:nth-last-child(-n+4){
+    margin-top: 8px;
+}
+
+.statistics_item p{
+    font-size: 18px;
+}
+
+.statistics_item p:nth-child(even) {
+    margin-left: 10px;
+}
